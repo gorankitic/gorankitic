@@ -37,7 +37,7 @@ const About = () => {
                 My core stack now includes <span className="font-semibold text-lg">MongoDb, Express, React, Node.js</span> but I am always
                 looking to learn new technologies. Recently, I discovered <span className="italic">Next.js</span> and started learning more about
                 <span className="italic"> Typescript</span> and <span className="italic">Prisma ORM</span>.
-                JavaScript wasn't the first programming language I learned. My first programming languages were
+                JavaScript {`wasn't`} the first programming language I learned. My first programming languages were
                 object-oriented programming languages <span className="italic">C++, Java and C#</span>, and then I moved on to JavaScript.
             </p>
         </motion.section >
