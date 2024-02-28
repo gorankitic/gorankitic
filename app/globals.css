@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --line-color: #e5e7eb;
+}
+
+/* base styles */
+body {
+  background: #f1f5f9;
+  @apply min-h-[calc(100vh-128px)] flex flex-col text-gray-900 m-8 mb-16 dark:bg-gray-950 dark:text-gray-50 dark:text-opacity-90;
+}
+
+.header-wrapper {
+  @apply fixed top-0 left-1/2 h-[4.5rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-50 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[29rem] sm:rounded-full dark:bg-gray-800 dark:border-black/40 dark:bg-opacity-75;
+}
+
+.borderBlack {
+  @apply border border-black/10;
+}
