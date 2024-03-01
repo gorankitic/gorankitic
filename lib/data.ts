@@ -35,21 +35,21 @@ export const projectsData = [
     {
         title: "Harbour",
         description:
-            "Harbour is a student project and a social media application, user can sign up, upload and delete photos, find friends, follow them, like their photos and make comments. The user receives notifications when someone starts following him, likes his photo or leaves a comment",
+            "Harbour is a social media application where user can sign up, upload and delete photos, find friends, follow them, like their photos and make comments. User receives notifications on follow, like or comment action.",
         tags: ["React", "Node.js", "MongoDB", "Express", "Mongoose", "Firebase"],
         imageUrl: HarbourImg,
     },
     {
         title: "eHouse",
         description:
-            "eHouse is a student project and a full-stack e-commerce web application developed in the process of learning React, Node.js, MongoDB, Express, React Router.",
+            "eHouse is a e-commerce web application where customer can sign up, buy electronic devices and leave a review on product. Paying for products is implemented with PayPal.",
         tags: ["React", "MongoDB", "Node.js", "Express", "Mongoose", "Redux"],
         imageUrl: eHouseImg,
     },
     {
         title: "Playground",
         description:
-            "Playground is a student project and a full-stack social media application created in the process of learning ReactJS and Firebase.",
+            "Playground is a social media application where user can sign up, upload and delete photos, find friends, follow them, like their photos and make comments. User receives real-time notifications on follow, like or comment action.",
         tags: ["React", "Firebase", "React Router", "Framer"],
         imageUrl: PlaygroundImg,
     },
