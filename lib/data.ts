@@ -35,7 +35,7 @@ export const projectsData = [
     {
         title: "Harbour",
         description:
-            "Harbour is a student project and a full-stack social media application created in the process of learning React, Node.js, Express, MongoDB, React Router, React Query and Firebase.",
+            "Harbour is a student project and a social media application, user can sign up, upload and delete photos, find friends, follow them, like their photos and make comments. The user receives notifications when someone starts following him, likes his photo or leaves a comment",
         tags: ["React", "Node.js", "MongoDB", "Express", "Mongoose", "Firebase"],
         imageUrl: HarbourImg,
     },
