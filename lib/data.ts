@@ -1,6 +1,7 @@
 import HarbourImg from "@/public/projects/harbour.png";
 import eHouseImg from "@/public/projects/eHouse.png";
 import PlaygroundImg from "@/public/projects/playground.png";
+import MemoryGameImg from '@/public/projects/memory.png';
 // import { Briefcase } from 'lucide-react';
 
 export const links = [
@@ -51,6 +52,13 @@ export const projectsData = [
             "Playground is a student project and a full-stack social media application created in the process of learning ReactJS and Firebase.",
         tags: ["React", "Firebase", "React Router", "Framer"],
         imageUrl: PlaygroundImg,
+    },
+    {
+        title: "Memory Game",
+        description:
+            "Memory Game is a student project and a simple web application developed while learning the React library.",
+        tags: ["React", "CSS", "Vite"],
+        imageUrl: MemoryGameImg,
     },
 ] as const;
 
