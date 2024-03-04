@@ -15,7 +15,7 @@ html {
 /* base styles */
 body {
   background: #f1f5f9;
-  @apply min-h-[calc(100vh-128px)] flex flex-col text-gray-900 m-8 mb-16 dark:bg-gray-950 dark:text-gray-50 dark:text-opacity-90;
+  @apply min-h-[calc(100vh-128px)] flex flex-col text-gray-900 my-8 mx-2 md:m-8 mb-16 dark:bg-gray-950 dark:text-gray-50 dark:text-opacity-90;
 }
 
 .header-wrapper {

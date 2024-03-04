@@ -37,7 +37,7 @@ const ThemeSwitch = () => {
 
     return (
         <button
-            className='fixed z-[1000] right-5 top-5 bg-white w-[3rem] h-[3rem] bg-opacity-60 backdrop-blur-[0.5rem] border borderBlack border-opacity-40 shadow-2xl rounded-full flex items-center justify-center hover:scale-[1.10] active:scale-[1.10] transition-all dark:bg-gray-900'
+            className='fixed z-[1000] right-5 top-20 md:top-7 bg-white w-[3rem] h-[3rem] bg-opacity-60 backdrop-blur-[0.5rem] border borderBlack border-opacity-40 shadow-2xl rounded-full flex items-center justify-center hover:scale-[1.10] active:scale-[1.10] transition-all dark:bg-gray-900'
             onClick={toggleTheme}
         >
             {theme === 'light' ? <Sun className='text-gray-700' /> : <Moon />}

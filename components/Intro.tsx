@@ -30,7 +30,7 @@ const Intro = () => {
                 </motion.div>
             </div>
             <motion.div 
-                className="mt-14 px-4 text-xl !leading-10 sm:text-2xl"
+                className="mt-14 text-xl !leading-10 sm:text-2xl"
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ type: "spring", stiffness: 150 }}
