@@ -38,6 +38,7 @@ export const projectsData = [
             "Harbour is a social media application where users can sign up, upload and delete photos, find friends, follow them, like their photos, and make comments. The user receives notifications on follow, like, or comment actions.",
         tags: ["React", "Node.js", "MongoDB", "Express", "Mongoose", "Firebase"],
         imageUrl: HarbourImg,
+        githubRepo: 'harbour'
     },
     {
         title: "eHouse",
@@ -45,6 +46,7 @@ export const projectsData = [
             "eHouse is an e-commerce web application where customers can sign up, buy electronic devices, and create product reviews. Paying for products is implemented with PayPal.",
         tags: ["React", "MongoDB", "Node.js", "Express", "Mongoose", "Redux"],
         imageUrl: eHouseImg,
+        githubRepo: 'eHouse'
     },
     {
         title: "Playground",
@@ -52,6 +54,7 @@ export const projectsData = [
             "Playground is a social media application where users can sign up, upload and delete photos, find friends, follow them, like their photos, and make comments. The user receives real-time notifications on follow, like, or comment actions.",
         tags: ["React", "Firebase", "React Router", "Framer"],
         imageUrl: PlaygroundImg,
+        githubRepo: 'playground'
     },
     {
         title: "Memory Game",
@@ -59,6 +62,7 @@ export const projectsData = [
             "Memory Game is a student project and a simple web application developed while learning the React library.",
         tags: ["React", "CSS", "Vite"],
         imageUrl: MemoryGameImg,
+        githubRepo: 'memory-game'
     },
 ] as const;
 
