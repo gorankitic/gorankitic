@@ -9,7 +9,7 @@ import SectionHeading from "./SectionHeading";
 
 
 const About = () => {
-    const { ref } = useSectionInView("About", 0.9);
+    const { ref } = useSectionInView("About", 0.6);
 
     return (
         <motion.section
