@@ -2,6 +2,8 @@ import HarbourImg from "@/public/projects/harbour.png";
 import eHouseImg from "@/public/projects/eHouse.png";
 import PlaygroundImg from "@/public/projects/playground.png";
 import MemoryGameImg from '@/public/projects/memory.png';
+import ConnectImg from '@/public/projects/connect.png';
+
 // import { Briefcase } from 'lucide-react';
 
 export const links = [
@@ -63,6 +65,14 @@ export const projectsData = [
         tags: ["React", "CSS", "Vite"],
         imageUrl: MemoryGameImg,
         githubRepo: 'memory-game'
+    },
+    {
+        title: "Connect",
+        description:
+            "Connect is a student project and a web application for teamwork projects where team workers can discuss projects live during video calls or by sending text messages, images, or files.",
+        tags: ["Next.js", "TypeScript", "TailwindCSS", "Prisma", "Mongodb", "Zod", "Socket.io", "LiveKit"],
+        imageUrl: ConnectImg,
+        githubRepo: 'connect'
     },
 ] as const;
 
