@@ -4,7 +4,9 @@
 
 👨🏻‍💻 Junior web developer
 
-📌 Personal portfolio web application https://gorankitic.vercel.app/
+📌 From Banja Luka
+
+🪪 Personal portfolio https://gorankitic.vercel.app/
 
 ⌨ Tech stack: JavaScript, Node.js, Express, MongoDB, React
 
