@@ -4,7 +4,7 @@
 
 👨🏻‍💻 Junior web developer
 
-📌 From Banja Luka
+🗺️ From Banja Luka
 
 🪪 Personal portfolio https://gorankitic.vercel.app/
 
