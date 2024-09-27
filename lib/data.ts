@@ -1,6 +1,6 @@
 import HarbourImg from "@/public/projects/harbour.png";
 import eHouseImg from "@/public/projects/eHouse.png";
-import PlaygroundImg from "@/public/projects/playground.png";
+import HTMSImg from "@/public/projects/htms.png";
 import MemoryGameImg from '@/public/projects/memory.png';
 import ConnectImg from '@/public/projects/connect.png';
 
@@ -51,12 +51,12 @@ export const projectsData = [
         githubRepo: 'eHouse'
     },
     {
-        title: "Playground",
+        title: "Hotel Tajan",
         description:
-            "Playground is a social media application where users can sign up, upload and delete photos, find friends, follow them, like their photos, and make comments. The user receives real-time notifications on follow, like, or comment actions.",
-        tags: ["React", "Firebase", "React Router", "Framer"],
-        imageUrl: PlaygroundImg,
-        githubRepo: 'playground'
+            "HTMS is an internal hotel management system application for hotel employees to track bookings, check-in and check-out guests, and managing apartments. ",
+        tags: ["React", "MongoDB", "Node.js", "Express", "Mongoose"],
+        imageUrl: HTMSImg,
+        githubRepo: 'htms'
     },
     {
         title: "Memory Game",
@@ -69,7 +69,7 @@ export const projectsData = [
     {
         title: "Connect",
         description:
-            "Connect is a student project and a web application for teamwork projects where team workers can discuss projects live during video calls or by sending text messages, images, or files.",
+            "Connect is a student project and a web application for teamwork projects where team workers or group of students can discuss projects live during video calls or by sending text messages, images, or files.",
         tags: ["Next.js", "TypeScript", "TailwindCSS", "Prisma", "Mongodb", "Zod", "Socket.io", "LiveKit"],
         imageUrl: ConnectImg,
         githubRepo: 'connect'

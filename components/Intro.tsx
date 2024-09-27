@@ -8,7 +8,7 @@ import Link from "next/link";
 // framer-motion
 import { motion } from "framer-motion";
 // assets
-import ProfilePhoto from '@/public/gk.jpg';
+import ProfilePhoto from '@/public/gk.png';
 import { ChevronRight, ChevronDown, Github } from 'lucide-react';
 
 
@@ -29,7 +29,7 @@ const Intro = () => {
                     />
                 </motion.div>
             </div>
-            <motion.div 
+            <motion.div
                 className="mt-14 text-xl !leading-10 sm:text-2xl"
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
