@@ -8,4 +8,4 @@
 
 ⌨ Tech stack: JavaScript, Node.js, Express, MongoDB, React
 
-🌱 Learning Next.js and TypeScript
+🌱 Learning Next.js, TypeScript, and SQL
