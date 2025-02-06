@@ -1,6 +1,6 @@
 # Hello, World! 👋🏻
 
-👦🏻 I am <strong>Goran Kitic</strong>
+👦🏻 I am ___Goran Kitic___
 
 👨🏻‍💻 Junior web developer
 
