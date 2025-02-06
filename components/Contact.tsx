@@ -49,9 +49,9 @@ const Contact = () => {
                         autoComplete="off"
                         required
                         maxLength={50}
-                        className="w-full pl-10 pr-4 py-2 rounded-md placeholder-gray-600 borderBlack focus:outline-primary dark:bg-gray-200"
+                        className="w-full pl-10 pr-4 py-2 rounded-md placeholder-gray-500 borderBlack focus:outline-primary dark:bg-gray-200"
                     />
-                    <Mail className="w-4 h-4 absolute left-3 top-3 text-gray-600 pointer-events-none" />
+                    <Mail className="w-4 h-4 absolute left-3 top-3 text-gray-500 pointer-events-none" />
                 </div>
                 <div className="relative my-4">
                     <textarea
@@ -60,9 +60,9 @@ const Contact = () => {
                         autoComplete='off'
                         required
                         maxLength={500}
-                        className="w-full h-52 pl-10 pr-4 py-2 rounded-md placeholder-gray-600 borderBlack focus:outline-primary dark:bg-gray-200"
+                        className="w-full h-52 pl-10 pr-4 py-2 rounded-md placeholder-gray-500 borderBlack focus:outline-primary dark:bg-gray-200"
                     />
-                    <Pen className="w-4 h-4 absolute left-3 top-3 text-gray-600 pointer-events-none" />
+                    <Pen className="w-4 h-4 absolute left-3 top-3 text-gray-500 pointer-events-none" />
                 </div>
                 <div className='flex justify-end'>
                     <SubmitButton />
