@@ -3,6 +3,7 @@
 👦🏻 I am **Goran Kitic**
 
 👨🏻‍💻 Junior web developer
+
 🚀 Focused on building modern web applications
 
 📌 Portfolio https://gorankitic.vercel.app/
