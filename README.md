@@ -1,8 +1,8 @@
 # Hello, World! 👋🏻
 
-👦🏻 I am ___Goran Kitic___
+👦🏻 I am **Goran Kitic**
 
-👨🏻‍💻 Junior web developer<br>🚀 Focused on building modern web applications
+👨🏻‍🚀 Junior web developer<br>🚀 Focused on building modern web applications<br> 🗺 From **Banja Luka**
 
 📌 Portfolio [https://gorankitic.vercel.app/](https://gorankitic.vercel.app/)
 
