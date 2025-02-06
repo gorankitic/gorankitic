@@ -2,7 +2,7 @@ import HarbourImg from "@/public/projects/harbour.png";
 import eHouseImg from "@/public/projects/eHouse.png";
 import HTMSImg from "@/public/projects/htms.png";
 import ConnectImg from '@/public/projects/connect.png';
-import TajanImg from "@/public/projects/tajan.png";
+import HotelTajanImg from "@/public/projects/hoteltajan.png";
 
 // import { Briefcase } from 'lucide-react';
 
@@ -63,7 +63,7 @@ export const projectsData = [
         description:
             "Hotel Tajan is a web application where guests can register, find apartments, select available days, and make reservations.",
         tags: ["Next.js", "NextAuth", "TailwindCSS", "MongoDB", "Prisma"],
-        imageUrl: TajanImg,
+        imageUrl: HotelTajanImg,
         githubRepo: 'tajan'
     },
     {
