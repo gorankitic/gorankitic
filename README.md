@@ -1,16 +1,11 @@
-# **_Hello, World!_** 👋🏻
+# Hello, World! 👋🏻
 
 👦🏻 I am **Goran Kitic**
 
-👨🏻‍🚀 Junior web developer<br>🚀 Focused on building modern web applications<br> 🌍 From **Banja Luka**
+👨🏻‍🚀 Junior web developer<br>
+🚀 Focused on building modern web applications<br>
+📌 From **Banja Luka**<br>
+🔗 Portfolio [https://gorankitic.vercel.app/](https://gorankitic.vercel.app/)
 
-📌 Portfolio [https://gorankitic.vercel.app/](https://gorankitic.vercel.app/)
-
-⌨️ Tech stack:
-
--   Languages: JavaScript (ES6+)
--   Frontend: React
--   Backend: Node.js, Express
--   Database: MongoDB, Mongoose ODM
-
+⌨️ Tech stack: JavaScript, React, Node.js, Express, MongoDB, Mongoose ODM<br>
 🌱 Currently learning: Next.js, TypeScript, SQL, Prisma ORM
