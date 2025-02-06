@@ -3,6 +3,7 @@ import eHouseImg from "@/public/projects/eHouse.png";
 import HTMSImg from "@/public/projects/htms.png";
 import MemoryGameImg from '@/public/projects/memory.png';
 import ConnectImg from '@/public/projects/connect.png';
+import Tajan from "@/public/projects/tajan.png";
 
 // import { Briefcase } from 'lucide-react';
 
@@ -51,25 +52,25 @@ export const projectsData = [
         githubRepo: 'eHouse'
     },
     {
-        title: "Hotel Tajan",
+        title: "HTMS",
         description:
-            "HTMS is an internal hotel management system application for hotel employees to track bookings, check-in and check-out guests, and managing apartments. ",
+            "HTMS is an internal hotel management system application for hotel employees to track bookings, check-in and check-out guests, and managing apartments.",
         tags: ["React", "MongoDB", "Node.js", "Express", "Mongoose"],
         imageUrl: HTMSImg,
         githubRepo: 'htms'
     },
     {
-        title: "Memory Game",
+        title: "Hotel Tajan",
         description:
-            "Memory Game is a student project and a simple web application developed while learning the React library.",
-        tags: ["React", "CSS", "Vite"],
-        imageUrl: MemoryGameImg,
-        githubRepo: 'memory-game'
+            "Hotel Tajan is a web application where guests can register, find apartments, select available days, and make reservations.",
+        tags: ["Next.js", "NextAuth", "TailwindCSS", "MongoDB", "Prisma"],
+        imageUrl: Tajan,
+        githubRepo: 'tajan'
     },
     {
         title: "Connect",
         description:
-            "Connect is a student project and a web application for teamwork projects where team workers or group of students can discuss projects live during video calls or by sending text messages, images, or files.",
+            "Connect is a web application for teamwork projects where team workers or group of students can discuss projects live during video calls or by sending text messages, images, or files.",
         tags: ["Next.js", "TypeScript", "TailwindCSS", "Prisma", "Mongodb", "Zod", "Socket.io", "LiveKit"],
         imageUrl: ConnectImg,
         githubRepo: 'connect'
@@ -83,10 +84,7 @@ export const skillsData = [
     "MongoDB",
     "Express",
     "Mongoose",
-    "Git",
-    "React Router",
-    "Tanstack/React Query",
-    // "TypeScript",
-    // "Next.js",
-    // "TailwindCSS",
+    "Next.js",
+    "TypeScript",
+    "TailwindCSS",
 ] as const;

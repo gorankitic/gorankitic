@@ -19,7 +19,7 @@ const SubmitButton = () => {
             {pending ? <div className='h-5 w-5 animate-spin rounded-full border-b-2 border-white'></div> : (
                 <>
                     Submit
-                    <Send className='text-xs opacity-90 transition-all group-hover:translate-x-1 group-hover:-translate-y-1' />
+                    <Send className='h-4 w-4 opacity-90 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300 ease-in-out' />
                 </>
             )}
         </button>

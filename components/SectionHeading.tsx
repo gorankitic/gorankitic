@@ -1,5 +1,3 @@
-
-
 type SectionHeadingProps = {
     children: React.ReactNode
 }
@@ -10,4 +8,4 @@ const SectionHeading = ({ children }: SectionHeadingProps) => {
     )
 }
 
-export default SectionHeading
+export default SectionHeading;

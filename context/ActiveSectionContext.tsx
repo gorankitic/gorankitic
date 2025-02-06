@@ -1,7 +1,7 @@
-'use client'
+'use client';
 
 // hooks
-import { createContext, useState, useContext } from "react"
+import { createContext, useState, useContext } from "react";
 // types
 import type { SectionName } from "@/lib/types";
 

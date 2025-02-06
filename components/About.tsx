@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 // hooks
 import { useSectionInView } from "@/hooks/useSectionInView";
@@ -6,7 +6,6 @@ import { useSectionInView } from "@/hooks/useSectionInView";
 import { motion } from "framer-motion";
 // components
 import SectionHeading from "./SectionHeading";
-
 
 const About = () => {
     const { ref } = useSectionInView("About", 0.6);
@@ -22,14 +21,14 @@ const About = () => {
         >
             <SectionHeading>About me</SectionHeading>
             <p>
-                Four years ago, I started learning <span className="font-semibold text-lg">JavaScript</span> and I <span className="italic">fell in love with it. </span>
-                Later on, I discovered the power of <span className="font-semibold text-lg">Node.js</span> and started exploring <span className="underline">backend</span> web development,
-                which included technologies like <span className="italic">Express, MongoDB, Mongoose</span> and more.
+                Four years ago, I started learning <span className="font-semibold text-lg">JavaScript</span> and it quickly became something I truly enjoy.
+                Later on, I discovered the power of <span className="font-semibold text-lg">Node.js</span>, which led me to dive into <span className="underline">backend</span> web development,
+                using technologies such as <span className="italic">Express, MongoDB, and Mongoose</span>.
             </p>
             <p>
                 Learning from top-rated instructors on the Udemy platform was a great experience that helped me understand how things work under the hood.
-                However, reading documentation and solving problems independently was the best way to improve my coding skills.
-                Of course, there is always room for improvement. After I understood backend development I shifted my focus to <span className="underline">frontend </span>web development
+                However, solving problems independently was the best way to improve my coding skills.
+                After I understood backend development I shifted my focus to <span className="underline">frontend </span>web development
                 and the <span className="font-semibold text-lg">React</span> library. To learn more, I began development of student projects like social-media applications,
                 e-commerce applications, and more.
             </p>
@@ -38,7 +37,7 @@ const About = () => {
                 looking to learn new technologies. Recently, I discovered <span className="italic">Next.js</span> and started learning more about
                 <span className="italic"> Typescript</span> and <span className="italic">Prisma ORM</span>.
                 JavaScript {`wasn't`} the first programming language I learned. My first programming languages were
-                object-oriented programming languages <span className="italic">C++, Java and C#</span>, and then I moved on to JavaScript.
+                object-oriented programming languages <span className="italic">C++, and Java</span>, and then I moved on to JavaScript.
             </p>
         </motion.section >
     )

@@ -1,21 +1,20 @@
-// meta
-import type { Metadata } from 'next'
-// styles
-import { Rubik } from 'next/font/google'
-import './globals.css'
 // components
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-import ThemeSwitch from '@/components/ThemeSwitch'
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import ThemeSwitch from '@/components/ThemeSwitch';
 // context
-import ActiveSectionProvider from '@/context/ActiveSectionContext'
-// toast
-import { Toaster } from 'react-hot-toast'
+import ActiveSectionProvider from '@/context/ActiveSectionContext';
+// lib
+import type { Metadata } from 'next';
+import { Toaster } from 'react-hot-toast';
+// styles
+import { Rubik } from 'next/font/google';
+import './globals.css';
 
-const rubik = Rubik({ subsets: ['latin'] })
+const rubik = Rubik({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Goran Kitic | Personal Portfolio',
+  title: 'Goran Kitic | Portfolio',
   description: 'Personal portfolio',
 }
 

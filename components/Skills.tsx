@@ -26,7 +26,7 @@ const Skills = () => {
 
     return (
         <section ref={ref} id="skills" className="mb-20 max-w-[50rem] scroll-mt-28 text-center sm:mb-28">
-            <SectionHeading>My skills</SectionHeading>
+            <SectionHeading>My tech stack</SectionHeading>
             <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
                 {skillsData.map((skill, index) => (
                     <motion.li
