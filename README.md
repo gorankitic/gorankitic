@@ -1,6 +1,6 @@
 # Hello, World! 👋🏻
 
-👦🏻 I am <span style="font-size: 2em; font-weight: bold;">Goran Kitic</span>
+👦🏻 I am <span style="font-size: 40px; font-weight: bold;">Goran Kitic</span>
 
 👨🏻‍💻 Junior web developer
 
