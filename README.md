@@ -2,7 +2,7 @@
 
 👦🏻 I am ___Goran Kitic___
 
-👨🏻‍💻 Junior web developer  🚀 Focused on building modern web applications
+👨🏻‍💻 Junior web developer<br>🚀 Focused on building modern web applications
 
 📌 Portfolio [https://gorankitic.vercel.app/](https://gorankitic.vercel.app/)
 
