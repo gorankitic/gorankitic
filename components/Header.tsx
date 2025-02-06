@@ -36,7 +36,7 @@ const Header = () => {
                             >
                                 {link.name}
                                 {link.name === activeSection && (
-                                    <motion.span className="bg-teal-600 rounded-full absolute inset-0 -z-10" layoutId="activeSection" transition={{ type: "string", stiffness: 380, damping: 30 }}></motion.span>
+                                    <motion.span className="bg-primary rounded-full absolute inset-0 -z-10" layoutId="activeSection" transition={{ type: "string", stiffness: 380, damping: 30 }}></motion.span>
                                 )}
                             </Link>
                         </motion.li>

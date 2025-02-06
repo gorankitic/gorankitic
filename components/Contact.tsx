@@ -10,6 +10,7 @@ import SubmitButton from './SubmitButton';
 import { motion } from 'framer-motion';
 // actions
 import { sendEmail } from '@/actions/sendEmail';
+import { Mail, Pen } from 'lucide-react';
 
 const Contact = () => {
     const { ref } = useSectionInView("Contact", 0.8);
@@ -18,7 +19,7 @@ const Contact = () => {
         <motion.section
             ref={ref}
             id="contact"
-            className='mb-24 sm:mb-28 w-[min(100%, 40rem)] text-center'
+            className='mb-24 sm:mb-28 w-[min(100%, 45rem)] text-center'
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}
@@ -40,8 +41,29 @@ const Contact = () => {
                 }}
                 className='mt-10 flex flex-col dark:text-gray-900'
             >
-                <input type='email' name="email" className='h-14 px-4 rounded-lg focus:outline-teal-600 borderBlack' placeholder='Your email' autoComplete='off' required maxLength={50} />
-                <textarea className='h-52 my-3 rounded-lg focus:outline-teal-600 borderBlack p-4' placeholder='Your message' name="message" autoComplete='off' required maxLength={500} />
+                <div className="relative">
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Your email"
+                        autoComplete="off"
+                        required
+                        maxLength={50}
+                        className="w-full pl-10 pr-4 py-2 rounded-md placeholder-gray-600 borderBlack focus:outline-primary dark:bg-gray-200"
+                    />
+                    <Mail className="w-4 h-4 absolute left-3 top-3 text-gray-600 pointer-events-none" />
+                </div>
+                <div className="relative my-4">
+                    <textarea
+                        name="message"
+                        placeholder='Write your message...'
+                        autoComplete='off'
+                        required
+                        maxLength={500}
+                        className="w-full h-52 pl-10 pr-4 py-2 rounded-md placeholder-gray-600 borderBlack focus:outline-primary dark:bg-gray-200"
+                    />
+                    <Pen className="w-4 h-4 absolute left-3 top-3 text-gray-600 pointer-events-none" />
+                </div>
                 <div className='flex justify-end'>
                     <SubmitButton />
                 </div>

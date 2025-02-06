@@ -21,25 +21,25 @@ const Project = ({ title, description, tags, imageUrl, githubRepo }: ProjectProp
 
     return (
         <motion.div ref={ref} style={{ scale: scaleProgress, opacity: opacityProgress }} className='mb-5 lg:mb-8 last:mb-0 md:px-14 lg:px-0'>
-            <section className='group flex flex-col lg:flex-row gap-1 lg:h-[18rem] bg-gray-100 max-w-[48rem] border border-black/5 rounded-md overflow-hidden relative hover:bg-gray-200 transition'>
-                <div className='py-3 px-3 text-center flex flex-col gap-2  lg:max-w-[50%] lg:py-4  lg:justify-between'>
+            <section className='group flex flex-col lg:flex-row gap-1 lg:h-[20rem] bg-gray-100 dark:bg-gray-700 hover:dark:bg-gray-800 max-w-[50rem] border border-black/5 rounded-md overflow-hidden relative hover:bg-gray-200 transition'>
+                <div className='py-3 px-3 text-center flex flex-col gap-2 lg:max-w-[50%] lg:py-4 lg:justify-between'>
                     <div className="flex justify-center items-center gap-2">
-                        <a 
-                            href={`https://github.com/gorankitic/${githubRepo}`} 
-                            target="_blank" 
-                            className="bg-white p-2 text-teal-600 flex items-center gap-2 rounded-full focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-gray-200">
+                        <a
+                            href={`https://github.com/gorankitic/${githubRepo}`}
+                            target="_blank"
+                            className="bg-white p-2 text-primary flex items-center gap-2 rounded-full focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-gray-200">
                             <Github />
                         </a>
-                        <h3 className='text-xl font-semibold dark:text-gray-700'>{title}</h3>
+                        <h3 className='text-xl font-semibold dark:text-gray-200'>{title}</h3>
                     </div>
-                    <p className='mt-1 leading-relaxed text-gray-700'>{description}</p>
+                    <p className='mt-1 leading-relaxed text-gray-900 dark:text-gray-200'>{description}</p>
                     <ul className='flex flex-wrap justify-center gap-1'>
                         {tags.map((tag, index) => (
-                            <li key={index} className='bg-teal-600 px-2 py-1 text-[0.5rem] uppercase tracking-wider text-white rounded-full items-center'>{tag}</li>
+                            <li key={index} className='bg-primary px-2 py-1 text-[0.5rem] uppercase tracking-wider text-white rounded-full items-center'>{tag}</li>
                         ))}
                     </ul>
                 </div>
-                <Image src={imageUrl} alt={title} quality={95} className='shadow-2xl rounded-t-lg lg:absolute lg:top-16 lg:right-[-6rem] lg:w-[28rem] transition group-hover:scale-110 group-hover:-translate-x-2 group-hover:translate-y-3 group-hover:-rotate-2' />
+                <Image src={imageUrl} alt={title} quality={95} className='shadow-2xl rounded-t-lg lg:absolute lg:top-20 lg:right-[-5.5rem] lg:w-[30rem] transition group-hover:scale-110 group-hover:-translate-x-2 group-hover:translate-y-3 group-hover:-rotate-2' />
             </section>
         </motion.div>
     )

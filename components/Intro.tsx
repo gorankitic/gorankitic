@@ -52,18 +52,30 @@ const Intro = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ type: "spring", stiffness: 150, delay: 0.1 }}
             >
-                <Link onClick={() => { setActiveSection("Contact"); setTimeOfLastClick(Date.now()) }} href="#contact" className="group bg-teal-600 text-white px-5 py-3 flex items-center gap-1 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition">
-                    Contact me
+                <Link
+                    href="#contact"
+                    onClick={() => { setActiveSection("Contact"); setTimeOfLastClick(Date.now()) }}
+                    className="group bg-primary text-white w-44 px-3 py-2 flex items-center justify-center gap-1 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition"
+                >
+                    <span>Contact me</span>
                     <ChevronRight className="opacity-80 group-hover:translate-x-1 transition-all duration-300 ease-in-out" />
                 </Link>
-                <a href="/GoranKiticCV.docx" download className="group bg-white px-5 py-3 flex items-center gap-1 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-gray-200 dark:text-gray-500">
-                    Download CV
+                <a
+                    href="/GoranKiticCV.docx"
+                    download
+                    className="group bg-white w-44 px-3 py-2 flex items-center justify-center gap-1 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-gray-200 dark:text-gray-700"
+                >
+                    <span>Download CV</span>
                     <ChevronDown className="opacity-70 group-hover:translate-y-1 transition-all duration-300 ease-in-out" />
                 </a>
                 <div className="flex sm:flex-row gap-4">
-                    <a href="https://github.com/gorankitic" target="_blank" className="group bg-white p-4 flex items-center gap-1 rounded-full focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-gray-200">
-                        <Github className="text-teal-600 group-hover:rotate-180 transition-all duration-500 ease-in-out" />
-                        Github
+                    <a
+                        href="https://github.com/gorankitic"
+                        target="_blank"
+                        className="group bg-white w-44 px-3 py-2 flex items-center justify-center gap-2 rounded-full focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-gray-200 dark:text-gray-700"
+                    >
+                        <Github className="text-primary group-hover:scale-110 transition-all duration-500 ease-in-out" />
+                        <span>Github</span>
                     </a>
                 </div>
             </motion.div>

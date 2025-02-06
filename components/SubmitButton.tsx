@@ -13,12 +13,12 @@ const SubmitButton = () => {
     return (
         <button
             type='submit'
-            className='group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-teal-600 text-white rounded-full outline-none transition-all focus:scale-105 hover:scale-105 active:scale-105 disabled:scale-100 disabled:opacity-70'
+            className='group px-5 py-2 flex items-center justify-center gap-2 bg-primary text-white rounded-full outline-none transition-all focus:scale-105 hover:scale-105 active:scale-105 disabled:scale-100 disabled:opacity-70'
             disabled={pending}
         >
             {pending ? <div className='h-5 w-5 animate-spin rounded-full border-b-2 border-white'></div> : (
                 <>
-                    Submit
+                    <span>Submit</span>
                     <Send className='h-4 w-4 opacity-90 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300 ease-in-out' />
                 </>
             )}
