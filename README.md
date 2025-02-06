@@ -1,7 +1,6 @@
 # Hello, World! 👋🏻
 
 ## 👦🏻 I am **Goran Kitic**
-
 👨🏻‍💻 Junior web developer
 
 🚀 Focused on building modern web applications
