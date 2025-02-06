@@ -11,6 +11,6 @@
 -   Languages: JavaScript (ES6+)
 -   Frontend: React
 -   Backend: Node.js, Express
--   Database: MongoDB, Mongoose (ODM)
+-   Database: MongoDB, Mongoose ODM
 
 🌱 Currently learning: Next.js, TypeScript, SQL, Prisma ORM
