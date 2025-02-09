@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "Explore my personal portfolio featuring a collection of my web development work.",
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/f8729982c66db0d023c74622b0326883~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=1439&refresh_token=9b86ec39cf0991495e9bffa27b8c7d0d&x-expires=1739311200&x-signature=8W6ACI9bNbVVh6dWvXdp%2F%2BDaF2Y%3D&shp=a5d48078&shcp=81f88b70',
         width: 1200,
         height: 630,
         alt: 'Goran Kitic Portfolio cover',
