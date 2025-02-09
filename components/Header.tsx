@@ -2,20 +2,19 @@
 
 // hooks
 import { useActiveSection } from "@/context/ActiveSectionContext";
-// next
+// components
 import Link from "next/link";
-// framer-motion
-import { motion } from "framer-motion";
 // data
 import { links } from "@/lib/data";
-// clsx
+// lib
+import { motion } from "framer-motion";
 import { clsx } from "clsx";
 
 const Header = () => {
     const { activeSection, setActiveSection, setTimeOfLastClick } = useActiveSection();
 
     return (
-        <header className="z-[999] relative ">
+        <header className="z-[999] relative">
             <motion.div
                 className="header-wrapper"
                 initial={{ y: -100, x: "-50%", opacity: 0 }}
