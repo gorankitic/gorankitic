@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 // hooks
 import { useForm } from 'react-hook-form';
@@ -20,13 +20,17 @@ const Contact = () => {
     const { register, handleSubmit, reset, formState: { errors, isSubmitting } } = useForm<EmailSchema>({ resolver: zodResolver(emailSchema) });
 
     const onSubmit = async ({ email, message }: EmailSchema) => {
-        const { data, error } = await sendEmail({ email, message });
-        if (data) {
-            toast.success("Email has been sent.");
-            reset();
-        }
-        if (error) {
-            toast.error("Failed to send email. Please try again later.");
+        try {
+            const { data, error } = await sendEmail({ email, message });
+            if (data) {
+                toast.success("✉ Email has been sent.");
+                reset();
+            }
+            if (error) {
+                toast.error("✉ Failed to send email. Please try again later.");
+            }
+        } catch (error) {
+            toast.error("Something is wrong. Please try again later.");
         }
     }
 
@@ -34,7 +38,7 @@ const Contact = () => {
         <motion.section
             ref={ref}
             id="contact"
-            className='mb-24 sm:mb-28 w-[min(100%, 45rem)] text-center'
+            className="mb-24 sm:mb-28 w-[min(100%, 45rem)] text-center"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}

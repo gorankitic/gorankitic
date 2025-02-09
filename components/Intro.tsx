@@ -1,4 +1,5 @@
-'use client'
+'use client';
+
 // hooks
 import { useSectionInView } from "@/hooks/useSectionInView";
 import { useActiveSection } from "@/context/ActiveSectionContext";
@@ -7,16 +8,16 @@ import Image from "next/image";
 import Link from "next/link";
 // lib
 import { motion } from "framer-motion";
+import { ChevronRight, ChevronDown, Github } from 'lucide-react';
 // assets
 import ProfilePhoto from '@/public/gk.png';
-import { ChevronRight, ChevronDown, Github } from 'lucide-react';
 
 const Intro = () => {
     const { ref } = useSectionInView("Home", 0.5);
     const { setActiveSection, setTimeOfLastClick } = useActiveSection()
 
     return (
-        <section className="mb-20 mt-28 sm:mt-32 max-w-[55rem] text-center sm:mb-28 scroll-mt-[50rem]" id="home" ref={ref}>
+        <section className="mb-20 mt-28 sm:mt-40 max-w-[55rem] text-center sm:mb-28 scroll-mt-[50rem]" id="home" ref={ref}>
             <div className="flex items-center justify-center">
                 <motion.div initial={{ opacity: 0, scale: 0 }} animate={{ opacity: 1, scale: 1 }} transition={{ type: 'tween', duration: 0.5 }} >
                     <Image
@@ -29,7 +30,7 @@ const Intro = () => {
                 </motion.div>
             </div>
             <motion.div
-                className="mt-20 text-xl sm:text-2xl !leading-10  sm:leading-relaxed"
+                className="mt-12 sm:mt-20 text-xl sm:text-2xl !leading-10  sm:leading-relaxed"
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ type: "spring", stiffness: 150 }}

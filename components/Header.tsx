@@ -22,7 +22,7 @@ const Header = () => {
                 transition={{ type: "spring", stiffness: 200 }}
             ></motion.div>
             <nav className="fixed flex top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
-                <ul className="flex w-[24rem] items-center justify-center gap-1 sm:gap-5 text-[0.9rem] font-medium text-gray-600 sm:w-[initial] dark:text-gray-50 dark:text-opacity-90">
+                <ul className="flex items-center justify-center gap-1 sm:gap-5 w-[20rem] sm:w-[initial] text-[0.9rem] font-medium text-gray-600 dark:text-gray-50 dark:text-opacity-90">
                     {links.map(link => (
                         <motion.li className="h-3/4 flex items-center justify-center relative" key={link.hash} initial={{ y: -100, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ type: "spring", stiffness: 200 }}  >
                             <Link

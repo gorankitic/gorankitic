@@ -2,7 +2,7 @@
 
 // hooks
 import { useEffect, useState } from 'react';
-// icons
+// lib
 import { Sun, Moon } from 'lucide-react';
 
 type Theme = 'light' | 'dark';
@@ -37,7 +37,7 @@ const ThemeSwitch = () => {
 
     return (
         <button
-            className='fixed z-[1000] group right-5 top-20 md:top-7 bg-white bg-opacity-60 w-[3rem] h-[3rem] borderBlack border-opacity-40 shadow-2xl rounded-full flex items-center justify-center hover:scale-[1.10] active:scale-[1.10] transition-all backdrop-blur-[0.1rem] dark:bg-gray-800 dark:border-black/40 dark:bg-opacity-60'
+            className='fixed z-[1000] group sm:mx-5 right-5 sm:right-1/2 sm:translate-x-80 md:translate-x-96 lg:translate-x-[500px] top-[70px] sm:top-[26px] bg-white bg-opacity-60 w-[3rem] h-[3rem] borderBlack border-opacity-40 shadow-2xl rounded-full flex items-center justify-center hover:scale-[1.10] active:scale-[1.10] transition-all backdrop-blur-[0.1rem] dark:bg-gray-800 dark:border-black/40 dark:bg-opacity-60'
             onClick={toggleTheme}
         >
             {theme === 'light' ?

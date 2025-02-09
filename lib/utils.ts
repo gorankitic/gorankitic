@@ -1,15 +1,21 @@
 export const getErrorMessage = (error: unknown): string => {
-    let message: string;
-
     if (error instanceof Error) {
-        message = error.message;
-    } else if (error && typeof error === 'object' && 'message' in error) {
-        message = String(error.message);
-    } else if (typeof error === 'string') {
-        message = error;
-    } else {
-        message = "Something went wrong";
+        return error.message || "An unexpected error occurred.";
     }
 
-    return message;
-}
+    if (typeof error === "string") {
+        return error;
+    }
+
+    if (typeof error === "object" && error !== null) {
+        if ("message" in error && typeof error.message === "string") {
+            return error.message;
+        }
+        if ("error" in error && typeof error.error === "string") {
+            return error.error;
+        }
+        return JSON.stringify(error);
+    }
+
+    return "Something went wrong.";
+};
