@@ -2,15 +2,14 @@
 // hooks
 import { useSectionInView } from "@/hooks/useSectionInView";
 import { useActiveSection } from "@/context/ActiveSectionContext";
-// next
+// components
 import Image from "next/image";
 import Link from "next/link";
-// framer-motion
+// lib
 import { motion } from "framer-motion";
 // assets
 import ProfilePhoto from '@/public/gk.png';
 import { ChevronRight, ChevronDown, Github } from 'lucide-react';
-
 
 const Intro = () => {
     const { ref } = useSectionInView("Home", 0.5);
