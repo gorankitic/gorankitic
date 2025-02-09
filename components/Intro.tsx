@@ -17,7 +17,7 @@ const Intro = () => {
     const { setActiveSection, setTimeOfLastClick } = useActiveSection()
 
     return (
-        <section className="mb-20 max-w-[55rem] text-center sm:mb-28 scroll-mt-[50rem]" id="home" ref={ref}>
+        <section className="mb-20 mt-28 sm:mt-32 max-w-[55rem] text-center sm:mb-28 scroll-mt-[50rem]" id="home" ref={ref}>
             <div className="flex items-center justify-center">
                 <motion.div initial={{ opacity: 0, scale: 0 }} animate={{ opacity: 1, scale: 1 }} transition={{ type: 'tween', duration: 0.5 }} >
                     <Image
@@ -30,24 +30,25 @@ const Intro = () => {
                 </motion.div>
             </div>
             <motion.div
-                className="mt-14 text-xl !leading-10 sm:text-2xl"
+                className="mt-20 text-xl sm:text-2xl !leading-10  sm:leading-relaxed"
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ type: "spring", stiffness: 150 }}
             >
-                <p><span className="font-semibold">👋🏻 Hello, World!</span> I am <span className="font-bold">Goran Kitic</span>,</p>
-                <p>
-                    a student at the School of Electrical Engineering, University of Belgrade, <br /> and a
-                    <span className="font-semibold"> junior web developer. </span>
+                <p className="mb-3"><span role="img" aria-label="waving hand">👋🏻</span> Hello, World!</p>
+                <p className="text-4xl mb-5">I am <span className="font-bold">Goran Kitic</span>.</p>
+                <p className="mb-5">
+                    A student at the School of Electrical Engineering, University of Belgrade, <br className="hidden lg:block" />
+                    and a <span className="font-semibold">junior web developer.</span>
                 </p>
                 <p>
-                    I enjoy building web applications using <span className="font-semibold">React </span>and <span className="font-semibold">Node.js </span><br />
+                    I enjoy building web applications using <span className="font-semibold">React </span>and <span className="font-semibold">Node.js, </span><br />
                     and exploring new technologies.
                 </p>
             </motion.div>
 
             <motion.div
-                className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 py-8 text-lg"
+                className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 mt-10 text-lg"
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ type: "spring", stiffness: 150, delay: 0.1 }}

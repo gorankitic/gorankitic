@@ -15,7 +15,7 @@ const Header = () => {
     const { activeSection, setActiveSection, setTimeOfLastClick } = useActiveSection();
 
     return (
-        <header className="z-[999] relative pt-32">
+        <header className="z-[999] relative ">
             <motion.div
                 className="header-wrapper"
                 initial={{ y: -100, x: "-50%", opacity: 0 }}
