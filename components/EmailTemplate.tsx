@@ -17,7 +17,7 @@ const ContactFormEmail = ({ message, email }: ContactFormEmailProps) => {
                     <Container>
                         <Section className='bg-white borderBlack my-10 px-10 py-4 rounded-md'>
                             <Heading className='leading-tight'>You received message from portfolio form</Heading>
-                            <Text>The sender's email is: {email}</Text>
+                            <Text>The sender&apos;s email is: {email}</Text>
                             <Hr />
                             <Text>{message}</Text>
                         </Section>
