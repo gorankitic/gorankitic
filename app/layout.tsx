@@ -16,6 +16,13 @@ const rubik = Rubik({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Goran Kitic | Portfolio',
   description: 'Personal portfolio',
+  openGraph: {
+    title: 'Goran Kitic | Portfolio',
+    description: "Explore my personal portfolio featuring a collection of my web development work.",
+    images: '/cover.png',
+    url: 'https://gorankitic.vercel.app/',
+    type: 'website',
+  }
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
