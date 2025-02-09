@@ -6,7 +6,7 @@ import ThemeSwitch from '@/components/ThemeSwitch';
 import ActiveSectionProvider from '@/context/ActiveSectionContext';
 // lib
 import type { Metadata } from 'next';
-import { Toaster } from 'react-hot-toast';
+import { Toaster } from 'sonner';
 // styles
 import { Rubik } from 'next/font/google';
 import './globals.css';
@@ -25,10 +25,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ActiveSectionProvider>
           <Header />
           {children}
-          <Footer />
-          <Toaster position='top-right' />
         </ActiveSectionProvider>
+        <Footer />
         <ThemeSwitch />
+        <Toaster position="bottom-right" />
       </body>
     </html>
   )
