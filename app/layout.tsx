@@ -19,7 +19,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Goran Kitic | Portfolio',
     description: "Explore my personal portfolio featuring a collection of my web development work.",
-    images: '/cover.png',
+    images: [
+      {
+        url: '/cover.png',
+        width: 1200,
+        height: 630,
+        alt: 'Goran Kitic Portfolio cover',
+      },
+    ],
     url: 'https://gorankitic.vercel.app/',
     type: 'website',
   }
