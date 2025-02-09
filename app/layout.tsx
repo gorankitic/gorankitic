@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "Explore my personal portfolio featuring a collection of my web development work.",
     images: [
       {
-        url: '/cover.png',
+        url: 'https://nextjs.org/og.png',
         width: 1200,
         height: 630,
         alt: 'Goran Kitic Portfolio cover',
