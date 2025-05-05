@@ -37,7 +37,8 @@ const Intro = () => {
             >
                 <p className="mb-3"><span role="img" aria-label="waving hand">👋🏻</span> Hello, World!</p>
                 <p className="text-4xl mb-5">I am <span className="font-bold">Goran Kitic</span>.</p>
-                <p className="mb-5">A junior <span className="font-semibold">web developer</span>, focused on building modern web applications using <span className="font-semibold">React </span>
+                <p className="mb-5">A junior <span className="font-semibold">web developer</span>, from <span className="font-semibold">Banja Luka</span>
+                    , focused on building modern web applications using <span className="font-semibold">React </span>
                     and <span className="font-semibold">Node.js, </span>
                     and exploring new technologies.
                 </p>
