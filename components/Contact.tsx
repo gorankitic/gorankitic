@@ -30,7 +30,7 @@ const Contact = () => {
                 toast.error("✉ Failed to send email. Please try again later.");
             }
         } catch (error) {
-            toast.error("Something is wrong. Please try again later.");
+            toast("❌ Something went wrong. Please try again later.");
         }
     }
 
