@@ -3,6 +3,7 @@ import eHouseImg from "@/public/projects/eHouse.png";
 import HTMSImg from "@/public/projects/htms.png";
 import ConnectImg from '@/public/projects/connect.png';
 import HotelTajanImg from "@/public/projects/hoteltajan.png";
+import DiscussionImg from "@/public/projects/discussion.png";
 
 // import { Briefcase } from 'lucide-react';
 
@@ -57,6 +58,14 @@ export const projectsData = [
         tags: ["React", "MongoDB", "Node.js", "Express", "Mongoose"],
         imageUrl: HTMSImg,
         githubRepo: 'htms'
+    },
+    {
+        title: "Discussion",
+        description:
+            "Discussion is a web app that allows users to register, create posts, comment, and engage in discussions. It features infinite scroll pagination, nested comments, and notifications.",
+        tags: ["React", "MongoDB", "Node.js", "Express", "Mongoose", "TypeScript"],
+        imageUrl: DiscussionImg,
+        githubRepo: "discussion"
     },
     {
         title: "Hotel Tajan",

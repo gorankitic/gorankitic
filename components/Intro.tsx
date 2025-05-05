@@ -30,25 +30,21 @@ const Intro = () => {
                 </motion.div>
             </div>
             <motion.div
-                className="mt-12 sm:mt-20 text-xl sm:text-2xl !leading-10  sm:leading-relaxed"
+                className="my-20 text-xl sm:text-2xl !leading-10  sm:leading-relaxed"
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ type: "spring", stiffness: 150 }}
             >
                 <p className="mb-3"><span role="img" aria-label="waving hand">👋🏻</span> Hello, World!</p>
                 <p className="text-4xl mb-5">I am <span className="font-bold">Goran Kitic</span>.</p>
-                <p className="mb-5">
-                    A student at the School of Electrical Engineering, University of Belgrade, <br className="hidden lg:block" />
-                    and a <span className="font-semibold">junior web developer.</span>
-                </p>
-                <p>
-                    I enjoy building web applications using <span className="font-semibold">React </span>and <span className="font-semibold">Node.js, </span><br />
+                <p className="mb-5">A junior <span className="font-semibold">web developer</span>, focused on building modern web applications using <span className="font-semibold">React </span>
+                    and <span className="font-semibold">Node.js, </span>
                     and exploring new technologies.
                 </p>
             </motion.div>
 
             <motion.div
-                className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 mt-10 text-lg"
+                className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg"
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ type: "spring", stiffness: 150, delay: 0.1 }}
